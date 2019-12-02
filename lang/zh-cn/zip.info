@@ -1,0 +1,23 @@
+{
+	"Description" : "zip插件",
+	"SHOWZIP" : 
+	{
+		"Description" : "查看zip文件列表",
+		"TranslateTemplate" : "查看 %1% 里面的文件列表"
+	},
+	"UNZIP" : 
+	{
+		"Description" : "zip文件解压缩。默认将所有文件解压到当前目录",
+		"TranslateTemplate" : "将文件 %1% 解压到 %2%"
+	},
+	"ZIPDIR" : 
+	{
+		"Description" : "压缩指定目录到zip文件",
+		"TranslateTemplate" : "将 %2% 目录添加到压缩文件 %1%"
+	},
+	"ZIPFILES" : 
+	{
+		"Description" : "压缩指定文件列表到zip文件",
+		"TranslateTemplate" : "将 %2% 所有文件添加到压缩文件 %1%"
+	}
+}

@@ -1,0 +1,223 @@
+{
+	"ADD" : 
+	{
+		"Description" : "以字典形式添加数据。支持字典(单条数据)，字典数组(多条数据，批量添加)。",
+		"TranslateTemplate" : "向 %1% 表添加 %2%"
+	},
+	"ADDLIST" : 
+	{
+		"Description" : "以数组形式添加数据，注意：字段和数据的顺序一致。支持一维数组(单条数据)，二维数组(多条数据，批量添加)。",
+		"TranslateTemplate" : "向 %1% 表的 %2% 字段添加 %3%"
+	},
+	"CHARSET_TO_ENCODING" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"CLOSE" : 
+	{
+		"Description" : "关闭数据链接，注意：使用完以后一定注意关闭。",
+		"TranslateTemplate" : "释放数据库链接"
+	},
+	"CONVERT_BIT" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"CONVERT_DATE" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"CONVERT_DATETIME" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"CONVERT_MYSQL_TIMESTAMP" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"CONVERT_SET" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"CONVERT_TIME" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"CONVERT_TIMEDELTA" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"DELETE" : 
+	{
+		"Description" : "以字典格式删除数据，简单支持and,or。字典格式{\"key\":\"value\",\"or\":{\"a\":\"b\",\"c\":\"d\",\"and\":{\"e\":\"f\",\"g\":\"h\"}。",
+		"TranslateTemplate" : "在 %1% 表里删除 %2% 条件的数据"
+	},
+	"DISPATCH" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"Description" : "adodb插件，支持excel，access，csv，txt以数据库链接形成操作",
+	"ESCAPE_BOOL" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"ESCAPE_BYTES" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"ESCAPE_BYTES_PREFIXED" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"ESCAPE_DATE" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"ESCAPE_DATETIME" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"ESCAPE_DICT" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"ESCAPE_FLOAT" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"ESCAPE_INT" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"ESCAPE_ITEM" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"ESCAPE_NONE" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"ESCAPE_OBJECT" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"ESCAPE_SEQUENCE" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"ESCAPE_SET" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"ESCAPE_STR" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"ESCAPE_STRING" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"ESCAPE_STRUCT_TIME" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"ESCAPE_TIME" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"ESCAPE_TIMEDELTA" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"ESCAPE_UNICODE" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"EXE" : 
+	{
+		"Description" : "执行sql语句，除了select的其他语句(select语句单独封装了方法)。\r\nsql语句支持%s占位符，参数有自动格式化白名单",
+		"TranslateTemplate" : "执行 %1% 语句，参数是: %2%"
+	},
+	"EXISTSTABLE" : 
+	{
+		"Description" : "判断数据库表名是否存在。",
+		"TranslateTemplate" : "是否存 %1% 表"
+	},
+	"GETCOLUMES" : 
+	{
+		"Description" : "获取表所有的字段名。",
+		"TranslateTemplate" : "获取 %1% 表的字段名"
+	},
+	"GETROWS" : 
+	{
+		"Description" : "执行sql查询，以列数组数据形式，返回查询数据。",
+		"TranslateTemplate" : "执行 %1% 语句，参数是: %2% 以列形式数组返回"
+	},
+	"GETTABLES" : 
+	{
+		"Description" : "获取数据库所有的表名。",
+		"TranslateTemplate" : "获取所有表名"
+	},
+	"INITADODB" : 
+	{
+		"Description" : "初始化数据库",
+		"TranslateTemplate" : "数据库文件地址(或adodb链接字符串)%1%，(可选)adodb链接字典格式参数%2%"
+	},
+	"QUERY" : 
+	{
+		"Description" : "执行sql查询，以行数据形式，返回查询数据。不分页时查询所有数据(注意：ado分页查询不能写sql里面)。sql语句支持%s占位符，参数有自动格式化白名单",
+		"TranslateTemplate" : "执行 %1% 语句，参数是: %3% ,以字典格式 %2% 返回，从第 %4% 页取 %5% 条数据"
+	},
+	"SEL" : 
+	{
+		"Description" : "对象化查询方式，以行数据形式，返回查询数据。查询条件简单支持and,or。字典格式{\"key\":\"value\",\"or\":{\"a\":\"b\",\"c\":\"d\",\"and\":{\"e\":\"f\",\"g\":\"h\"}。不分页时查询所有数据。",
+		"TranslateTemplate" : "在 %1% 中根据 %3% 条件，查询 %2% 字段的结果。结果是否字典: %4%，是否去重: %5%，从第 %6% 页取 %7% 条数据"
+	},
+	"SELROWS" : 
+	{
+		"Description" : "对象化查询方式，以列数组数据形式，返回查询数据。查询条件简单支持and,or。字典格式{\"key\":\"value\",\"or\":{\"a\":\"b\",\"c\":\"d\",\"and\":{\"e\":\"f\",\"g\":\"h\"}。",
+		"TranslateTemplate" : "在 %1% 中根据 %3% 条件，查询 %2% 字段的结果。结果去重 %4%"
+	},
+	"THING2LITERAL" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"THROUGH" : 
+	{
+		"Description" : null,
+		"TranslateTemplate" : null
+	},
+	"UPDATE" : 
+	{
+		"Description" : "对象化字典修改方式。修改后的值为字典格式。查询条件简单支持and,or。字典格式{\"key\":\"value\",\"or\":{\"a\":\"b\",\"c\":\"d\",\"and\":{\"e\":\"f\",\"g\":\"h\"}。",
+		"TranslateTemplate" : "修改 %1% 中条件为 %3% 的数据为 %2%"
+	}
+}

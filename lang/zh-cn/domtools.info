@@ -1,0 +1,38 @@
+{
+	"CSS" : 
+	{
+		"Description" : "html cssquery选择器",
+		"TranslateTemplate" : "执行 %1% 选择器，如果 %2% 存在。否则从全局DOM中查找"
+	},
+	"Description" : "domtools插件",
+	"INITDOM" : 
+	{
+		"Description" : "初始化全局dom",
+		"TranslateTemplate" : "HTML或XML源码：%1%"
+	},
+	"INITJSON" : 
+	{
+		"Description" : "初始化全局json",
+		"TranslateTemplate" : "JSON源码或字典：%1%"
+	},
+	"JPATH" : 
+	{
+		"Description" : "jsonpath选择器",
+		"TranslateTemplate" : "执行 %1% 选择器，如果 %2% 存在。否则从全局json中查找"
+	},
+	"PYEVAL" : 
+	{
+		"Description" : "执行python表达式（这是魔鬼，小心使用）",
+		"TranslateTemplate" : "执行表达式 %1% ,可以通过args取 %2% 中的数据"
+	},
+	"REPLACE" : 
+	{
+		"Description" : "正则替换",
+		"TranslateTemplate" : "把 %3% 中的 %1% 替换为 %2%"
+	},
+	"XPATH" : 
+	{
+		"Description" : "xpath选择器",
+		"TranslateTemplate" : "执行 %1% 选择器，如果 %2% 存在。否则从全局initDom中查找"
+	}
+}

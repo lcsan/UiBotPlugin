@@ -1,0 +1,8 @@
+{
+	"PIC" : 
+	{
+		"Description" : "截屏",
+		"TranslateTemplate" : "截取屏幕 %1% 范围内的图像，保存到 %2%"
+	},
+	"Description" : "Screen模块"
+}

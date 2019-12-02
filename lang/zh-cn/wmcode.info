@@ -1,0 +1,38 @@
+{
+	"LOADDAT" : 
+	{
+		"Description" : "载入字库",
+		"TranslateTemplate" : "载入 %1% 的字库"
+	},
+	"LOADDATEX" : 
+	{
+		"Description" : "载入字库",
+		"TranslateTemplate" : "载入 %1% 的字库"
+	},
+	"SETWMOPTION" : 
+	{
+		"Description" : "设置字库选项",
+		"TranslateTemplate" : "设置选项 %1% 的值为 %2%"
+	},
+	"SETWMOPTIONEX" : 
+	{
+		"Description" : "设置指定字库的选项",
+		"TranslateTemplate" : "指定字库 %1% 的 %2% 选项的值为 %3%"
+	},
+	"GETCODEFORMFILE" : 
+	{
+		"Description" : "识别验证码",
+		"TranslateTemplate" : "识别 %1% 图片中的验证码"
+	},
+	"GETCODEFORMFILEEX" : 
+	{
+		"Description" : "识别验证码",
+		"TranslateTemplate" : "指定字库 %1% 来识别 %2% 图片中的验证码"
+	},
+	"CALCULATOR" : 
+	{
+		"Description" : "计算数学表达式",
+		"TranslateTemplate" : "计算 %1% 的结果"
+	},
+	"Description" : "wmcode模块"
+}
