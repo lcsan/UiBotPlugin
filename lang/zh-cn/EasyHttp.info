@@ -1,0 +1,103 @@
+{
+	"DELETE" : 
+	{
+		"Description" : "HTTP.DELETE",
+		"TranslateTemplate" : "使用HTTP协议带表单的DELETE方法请求 %1%"
+	},
+	"Description" : "HTTP协议",
+	"GET" : 
+	{
+		"Description" : "HTTP.GET",
+		"TranslateTemplate" : "使用HTTP协议的GET方法请求 %1%"
+	},
+	"GETFILE" : 
+	{
+		"Description" : "HTTP.GET到文件",
+		"TranslateTemplate" : "使用HTTP协议的GET方法请求文件 %1%"
+	},
+	"GETLASTERROR" : 
+	{
+		"Description" : "获取最后一次出错的错误描述",
+		"TranslateTemplate" : "HTTP协议获取上一次的错误描述"
+	},
+	"HEAD" : 
+	{
+		"Description" : "HTTP.HEAD",
+		"TranslateTemplate" : "HTTP协议获取 %1% 的信息头"
+	},
+	"POST" : 
+	{
+		"Description" : "HTTP.POST",
+		"TranslateTemplate" : "使用HTTP协议带表单的POST方法请求 %1%"
+	},
+	"POSTFILE" : 
+	{
+		"Description" : "HTTP.POST提交文件",
+		"TranslateTemplate" : "使用HTTP协议提交含有文件的表单到 %1%"
+	},
+	"POSTJSON" : 
+	{
+		"Description" : "HTTP.POST提交JSON表单",
+		"TranslateTemplate" : "使用HTTP协议带JSON的POST方法请求 %1%"
+	},
+	"PUT" : 
+	{
+		"Description" : "HTTP.PUT",
+		"TranslateTemplate" : "使用HTTP协议带表单的PUT方法请求 %1%"
+	},
+	"SESSION_CREATE" : 
+	{
+		"Description" : "HTTP.SESSION_CREATE创建session",
+		"TranslateTemplate" : "创建session"
+	},
+	"SESSION_FREE" : 
+	{
+		"Description" : "HTTP.SESSION_FREE释放session",
+		"TranslateTemplate" : "释放session"
+	},
+	"SESSION_SETCOOKIES" : 
+	{
+		"Description" : "HTTP.SESSION_SETCOOKIES设置session的全局cookies",
+		"TranslateTemplate" : "设置或更新Seesion的Cookies为 %1%"
+	},
+	"SESSION_GETCOOKIES" : 
+	{
+		"Description" : "HTTP.SESSION_GETCOOKIES获取session的全局cookies",
+		"TranslateTemplate" : "获取Seesion的Cookies"
+	},
+	"SESSION_SETHEADERS" : 
+	{
+		"Description" : "HTTP.SESSION_SETHEADERS设置session的全局headers",
+		"TranslateTemplate" : "设置或更新Seesion的Headers为 %1%"
+	},
+	"SESSION_SETCOOKIE" : 
+	{
+		"Description" : "HTTP.SESSION_SETCOOKIE设置session的全局cookie",
+		"TranslateTemplate" : "设置或更新Seesion的Cookie ( %1% ) 为 %2%"
+	},
+	"SESSION_SETHEADER" : 
+	{
+		"Description" : "HTTP.SESSION_SETHEADER设置session的全局header",
+		"TranslateTemplate" : "设置或更新Seesion的Header ( %1% ) 为 %2%"
+	},
+	"SETCOOKIE" : 
+	{
+		"Description" : "设置单条Cookie",
+		"TranslateTemplate" : "HTTP协议设置 Cookie ( %1% ) 为 %2%"
+	},
+	"SETCOOKIES" : 
+	{
+		"Description" : "设置Cookies",
+		"TranslateTemplate" : "设置HTTP协议使用的 Cookies"
+	},
+	"SETHEADER" : 
+	{
+		"Description" : "设置单条Header",
+		"TranslateTemplate" : "HTTP协议设置 Header ( %1% ) 为 %2%"
+	},
+	"SETHEADERS" : 
+	{
+		"Description" : "设置Headers",
+		"TranslateTemplate" : "设置HTTP协议使用的 Headers"
+	}
+}
